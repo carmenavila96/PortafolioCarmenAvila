@@ -1,0 +1,171 @@
+.navbar {
+    background-color: #FFE5F0;
+    color: #B4016C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.nav-link {
+    color: #B4016C;
+    padding: 8px, 16px;
+}
+
+.nav-link:hover {
+    color:#B4016C;
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #FFE5F0;
+    padding: 80px;
+}
+
+.pFooter {
+    color: #C999AF;
+}
+
+.developer {
+    font-family: 'Oleo Script', sans-serif;
+    color: #B4016C;
+    font-size: 48px;
+}
+
+#dev {
+    font-size: 60px;
+}
+
+#car{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 37px;
+    color: #C999AF;
+}
+
+#home {
+    background-color:#FFE5F0;
+    
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #C67F9F;
+}
+
+.aboutMe {
+    padding: 9px;
+    margin:20px 0px 16px 60px;
+}
+
+.pDes {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #C999AF;
+    font-weight: 800;
+}
+
+.pFuerte {
+    color: #B4016C;
+}
+
+.idiomas {
+    padding: 9px;
+    margin:20px 0px 0px 60px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.btn {
+    background-color: #C999AF;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.container-icons {
+    padding: 9px;
+    margin:20px 0px 0px 60px;
+    gap: 4px;
+    display: flex;
+}
+.ubicacion {
+    padding: 9px;
+    margin:20px 0px 0px 60px;
+}
+
+.pHab {
+    color: #B4016C;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.iconHab:hover {
+    transform: scale(1.15, 1.15);
+}
+
+section[id]{
+    scroll-margin-top: 150px;
+}
+
+/* @keyframes gatito {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.gatito {
+    animation-name: gatito;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    display:flex;
+    justify-self: end;
+} */
+
+.hProyecto {
+    color:#B4016C;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pProyecto {
+    color:#B4016C;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.carousel {
+    padding: 20px;
+    margin: 30px;
+}
+
+#form {
+   margin-left: 100px;
+   margin-right: 100px;
+   padding: 10px;
+   margin-bottom: 50px;
+   margin-top: 30px;
+}
+
+.form-control {
+    border-color: #B4016C;
+    font-family: 'Montserrat', sans-serif;
+    /* height: 50px; */
+}
+
+#btnEnviar {
+    background-color: #B4016C;
+}
+
+#habilidades {
+    margin-bottom: 50px;
+}
+
+#proyectos {
+    margin-bottom: 100px;
+}
+
