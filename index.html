@@ -266,25 +266,52 @@
 
     <!-- Contacto -->
     <section id="contacto">
-        <h1 class="developer text-center">Contacto</h1>
-        <form class="row g-3" id="form">
-            <div class="form-group col-md-6">
-                <input type="text" class="form-control" placeholder="Nombre" id="nombre" name="Nombre">
-            </div>
-            <div class="form-group col-md-6">
-                <input type="text" class="form-control" placeholder="Teléfono" id="telefono" name="Telefono">
-            </div>
-            <div class="form-group col-md-12">
-                <input type="email" class="form-control" placeholder="Correo Electrónico" id="email" name="email">
-            </div>
-            <div class="form-group col-md-12">
-                <textarea name="mensaje" class="form-control" placeholder="Escribe aqui tu mensaje" rows="4" id="mensaje"></textarea>
-            </div>
-            <div class="form-group col-md-12">
-                <input class="btn btn-brand btn_padding" type="submit" id="btnEnviar" value="Enviar">
-            </div>
-        </form>
-    </section>
+        <section class="container-fluid1 p-4">
+           <div class="alert alert-danger fade show" style="display:none;" role="alert" id="alertValidaciones">
+               <p id="alertValidacionesTexto"></p>
+       </section>
+       <section class="container-fluid1 p-4">
+           <div class="alert alert-success fade show" style="display:none;" role="alert" id="alertValidaciones1">
+               <p id="Validaciones-envio"></p>
+       </section>
+       <div class="d-flex justify-content-center">
+           <form id="form-about" class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+               <div class="form-group col-sm-12 col-md-12 col-lg-12">
+                   <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                   </br>
+                   <input type="text" class="form-control nombre" id="exampleFormControlInput1" placeholder="Nombre">
+                   </input>
+                   <div class="invalid-feedback">
+                       Nombre inválido
+                   </div>
+               </div>
+   
+               <div class="row">
+                   <div class="form-group col-sm-12 col-md-6 col-lg-6">
+                       <label for="exampleFormControlInput1" class="form-label">Email</label>
+                       <input type="email" class="form-control" id="exampleFormControlInput2"
+                           placeholder="correo@dominio.com">
+                   </div>
+                   <div class="form-group col-sm-12 col-md-6 col-lg-6">
+                       <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
+                       <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Teléfono">
+                   </div>
+               </div>
+   
+               <div class="form-group col-sm-12 col-md-12 col-lg-12">
+                   <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                       placeholder="Escribe aquí tu mensaje"></textarea>
+               </div>
+   
+               <div class="form-group col-sm-12 col-md-12 col-lg-12 my-5">
+                   <button id="btnEnviar" class="btn enviarbtn" type="button">Enviar</button>
+                   
+                   <button id="btnClear" class="btn btn-block" type="button">Limpiar todo</button>
+               </div>
+           </form>
+       </div>
+   </section>
 
     <!-- pie de página -->
     <footer>
